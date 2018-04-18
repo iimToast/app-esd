@@ -1,0 +1,5 @@
+Todo :
+Home : 
+- ajouter css
+- pagination arrows
+- bind icons to pages
