@@ -3,6 +3,13 @@ page-favoris {
 ion-header {
   text-align: center;
 }
+
+  ion-card-title {
+    margin-top: -50px !important;
+    text-align: center;
+    background-color: #8e9093 !important;
+  }
+
   ion-card img {
     height: 300px;
   }

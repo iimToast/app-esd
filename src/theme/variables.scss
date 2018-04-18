@@ -72,6 +72,20 @@ $colors: (
 
 @import "ionic.theme.default";
 
+$toolbar-background: #EB9E8D;
+$toolbar-ios-title-text-color: #000000;
+$toolbar-md-title-text-color: #000000;
+
+$tabs-background: #EB9E8D;
+$tabs-md-tab-icon-color: #000000;
+$tabs-md-tab-icon-color: #000000;
+
+$bgcolor-custom: #E6E6E6;
+
+//$font-family-md-base: "Gotham";
+//$font-family-ios-base: "Gotham";
+// mettre la font globale ici, préciser les titres
+
 
 // Ionicons
 // --------------------------------------------------
@@ -86,3 +100,4 @@ $colors: (
 
 @import "roboto";
 @import "noto-sans";
+

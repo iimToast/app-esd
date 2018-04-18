@@ -13,40 +13,40 @@
 </ion-header>
 
 
-<ion-content padding>
+<ion-content>
 
-  <ion-card>
-    <ion-card-content>
-      <ion-card-title>
-        Bienvenue
-      </ion-card-title>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam amet aspernatur blanditiis consequatur consequuntur, cumque cupiditate delectus dolor dolorum, magni minima nihil, quae quibusdam quisquam totam velit voluptas voluptates voluptatibus?
+  <ion-item class="test-item-top">
+      <h2>
+        Bienvenue !
+      </h2>
+      <h3>
+        Prénom Nom
+      </h3>
+      <h4>
+        prenom.nom@gmail.com
+      </h4>
 
-      </p>
-    </ion-card-content>
     <img src="../../assets/imgs/img-test.png" alt="image de test"/>
-  </ion-card>
+  </ion-item>
 
-  <ion-card>
-    <ion-card-title>
-      Deviens contributeur
-    </ion-card-title>
-    <ion-card-content>
+  <ion-list>
+    <ion-list-header>
+      Deviens contributeur !
+    </ion-list-header>
       <ion-item>
-        <ion-input type="text" name="title" placeholder="titre"></ion-input>
-
+        <ion-label floating> Titre </ion-label>
+        <ion-input type="text" name="title"></ion-input>
       </ion-item>
       <ion-item>
-        <ion-input type="text" name="content" placeholder="contenu"></ion-input>
+        <ion-label floating> Contenu </ion-label>
+        <ion-input type="text" name="content"></ion-input>
       </ion-item>
       <ion-item>
-        <ion-input type="file" name="content" placeholder="contenu"></ion-input>
+        <ion-input type="file" name="file"></ion-input>
       </ion-item>
-      <ion-item>
-        <button ion-button color="secondary">Envoyer mon id�e</button>
+      <ion-item class="button-center">
+        <button ion-button>Envoyer mon idée !</button>
       </ion-item>
-    </ion-card-content>
-  </ion-card>
+  </ion-list>
 
 </ion-content>

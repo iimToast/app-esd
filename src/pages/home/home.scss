@@ -1,11 +1,18 @@
 page-home {
-  .yolo {
-    font-size: 30px;
+  ion-card-header {
+    text-align: center;
   }
 
   ion-icon.header-fav {
     font-size: 30px;
     float: right;
+  }
+
+  .article-titre {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    white-space: normal;
   }
 }
 
