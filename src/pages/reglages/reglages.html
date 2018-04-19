@@ -7,12 +7,124 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>reglages</ion-title>
+    <ion-title>Réglages</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding>
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <div class="grey-background">
+        <h2>
+          AUTORISATIONS DE L'APP
+        </h2>
+      </div>
+    </ion-item>
+    <ion-item>
+      <ion-label>Notifications Push</ion-label>
+      <ion-toggle></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label>Galerie Photos</ion-label>
+      <ion-toggle></ion-toggle>
+    </ion-item>
+  </ion-list>
+
+  <ion-list>
+    <ion-item>
+      <div class="grey-background">
+        <h2>
+          SUIVEZ-NOUS SUR
+        </h2>
+      </div>
+    </ion-item>
+    <button ion-item>
+      <ion-icon name="logo-facebook" item-start></ion-icon>
+      Facebook
+    </button>
+    <button ion-item>
+      <ion-icon name="logo-instagram" item-start></ion-icon>
+      Instagram
+    </button>
+    <button ion-item>
+      <ion-icon name="logo-twitter" item-start></ion-icon>
+      Twitter
+    </button>
+    <button ion-item>
+      <ion-icon name="logo-slack" item-start></ion-icon>
+      Slack
+    </button>
+  </ion-list>
+
+  <ion-list>
+    <ion-item>
+      <div class="grey-background">
+        CONNAISSEZ-VOUS CES APP ?
+      </div>
+    </ion-item>
+    <ion-slides pager loop autoplay="3000">
+
+      <ion-slide>
+        <div class="test-align-2">
+          <img src="../../assets/imgs/img-test.png" alt=""/>
+          <p>
+            <span>Nom App</span>
+            <br/>
+
+            Descriptif App
+          </p>
+          <button ion-button> Télécharger </button>
+        </div>
+      </ion-slide>
+
+      <ion-slide>
+        <div class="test-align-2">
+          <img src="../../assets/imgs/img-test.png" alt=""/>
+          <p>
+            <span>Nom App</span>
+            <br/>
+            Descriptif App
+          </p>
+          <button ion-button> Télécharger </button>
+        </div>
+      </ion-slide>
+
+      <ion-slide>
+        <div class="test-align-2">
+          <img src="../../assets/imgs/img-test.png" alt=""/>
+          <p>
+            <span>Nom App</span>
+            <br/>
+
+            Descriptif App
+          </p>
+          <button ion-button> Télécharger </button>
+        </div>
+      </ion-slide>
+
+    </ion-slides>
+  </ion-list>
+
+  <ion-list>
+    <ion-item>
+      <div class="grey-background">
+        A PROPOS
+      </div>
+    </ion-item>
+    <button ion-item>
+      Ecrivez-nous :)
+      <ion-icon name="arrow-forward" class="icon-right"></ion-icon>
+    </button>
+    <button ion-item>
+      Mentions légales
+      <ion-icon name="arrow-forward" class="icon-right"></ion-icon>
+    </button>
+  </ion-list>
+
+
+
+
 
 </ion-content>

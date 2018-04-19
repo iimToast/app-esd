@@ -9,6 +9,8 @@ import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { FavorisPage } from '../pages/favoris/favoris';
 import { MonComptePage } from '../pages/mon-compte/mon-compte';
+import { BestOfPage } from '../pages/best-of/best-of';
+import { ReglagesPage } from '../pages/reglages/reglages';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -21,7 +23,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     TabsPage,
     FavorisPage,
-    MonComptePage
+    MonComptePage,
+    BestOfPage,
+    ReglagesPage
   ],
   imports: [
     BrowserModule,
@@ -35,7 +39,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     TabsPage,
     FavorisPage,
-    MonComptePage
+    MonComptePage,
+    BestOfPage,
+    ReglagesPage
   ],
   providers: [
     StatusBar,

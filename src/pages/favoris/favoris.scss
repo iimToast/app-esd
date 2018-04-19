@@ -4,13 +4,17 @@ ion-header {
   text-align: center;
 }
 
-  ion-card-title {
-    margin-top: -50px !important;
-    text-align: center;
-    background-color: #8e9093 !important;
+  ion-card {
+    ion-card-title {
+      margin-top: -50px !important;
+      text-align: center;
+      background-color: #8e9093;
+    }
+
+    img {
+      height: 300px;
+    }
   }
 
-  ion-card img {
-    height: 300px;
-  }
+
 }
