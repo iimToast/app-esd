@@ -5,6 +5,15 @@ page-home {
   ion-card-header {
     text-align: center;
   }
+  h1 {
+    text-align: center;
+  }
+
+  ion-slide {
+    img {
+      height: 300px !important;
+    }
+  }
 
   ion-icon.header-fav {
     font-size: 30px;
