@@ -9,9 +9,7 @@
 </ion-header>
 
 <ion-content padding>
-  <h1>
-    Categorie
-  </h1>
+<!--
   <ion-slides pager loop autoplay="3000">
 
     <ion-slide>
@@ -27,7 +25,26 @@
     </ion-slide>
 
   </ion-slides>
+-->
+  <ion-slides>
+    <ion-slide *ngFor="let article of articles | async">
+      <h1>
+        {{article.categorie}}
+      </h1>
+      <img src={{article.image}} alt="">
+      <h2 class="article-titre text-wrap">
+        {{article.titre}}
+      </h2>
+      <button ion-button outline color="blue">
+        Lire l'article
+      </button>
+      <p>
+        {{article.excerpt}}
+      </p>
+    </ion-slide>
+  </ion-slides>
 
+  <!--
   <ion-card>
     <ion-card-header>
       <h2 class="article-titre">
@@ -43,4 +60,5 @@
       Excerpts de l'article - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores dolorem enim est eveniet, expedita ipsum minima modi nemo numquam officia pariatur praesentium soluta tempore tenetur unde voluptatum! Nihil, optio!
     </ion-card-content>
   </ion-card>
+  -->
 </ion-content>

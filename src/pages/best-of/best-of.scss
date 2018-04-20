@@ -1,3 +1,25 @@
 page-best-of {
+  ion-header {
+    text-align: center;
+  }
 
+  ion-card {
+    position: relative;
+    width: 400px;
+    max-height: 300px;
+    float: left;
+    ion-card-title {
+      position: absolute;
+      bottom: 0;
+      left: 25%;
+      background-color: #FFFFFF;
+      width: 50%;
+      text-align: center;
+      opacity: 0.7;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
 }

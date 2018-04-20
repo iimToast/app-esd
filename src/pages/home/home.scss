@@ -7,11 +7,12 @@ page-home {
   }
   h1 {
     text-align: center;
+    padding-top: 15px;
   }
 
   ion-slide {
     img {
-      height: 300px !important;
+      height: 200px !important;
     }
   }
 
@@ -22,7 +23,6 @@ page-home {
 
   .article-titre {
     text-align: center;
-    font-size: 2em;
     font-weight: bold;
     white-space: normal;
   }

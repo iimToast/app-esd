@@ -1,0 +1,41 @@
+{
+  "articles": [
+    {
+    "categorie": "Vie scolaire",
+    "image": "../../assets/imgs/viescolaire1.jpg",
+    "titre": "Mise à jour de Auriga !",
+    "excerpt": "Auriga a été mis à jour, de nouvelles fonctionnalités vous attendent !"
+  },
+  {
+    "categorie": "Horoscope",
+    "image": "../../assets/imgs/horo1.jpg",
+    "titre": "L'horoscope de la semaine",
+    "excerpt": "Découvrez ce que les astres vous réservent cette semaine !"
+  },
+  {
+    "categorie": "News",
+    "image": "../../assets/imgs/home1.jpg",
+    "titre": "Découvrez Slack !",
+    "excerpt": "Slack, cet outil incroyable qui révolutionne le digital"
+  },
+  {
+    "categorie": "Evènement",
+    "image": "../../assets/imgs/event.jpg",
+    "titre": "Soirée de l'ESD",
+    "excerpt": "SAVE THE DAY ! La prochaine soirée de l'ESD est déjà prévue, et c'est pour bientôt..."
+  },
+  {
+    "categorie": "Annonce",
+    "image": "../../assets/imgs/annonce.jpg",
+    "titre": "On recherche un dev !",
+    "excerpt": "L'ESD veut lancer sa première application mobile pour étudiants, viens faire partie de l'aventure !"
+  },
+  {
+    "categorie": "Actualité",
+    "image": "../../assets/imgs/actu1.jpg",
+    "titre": "Sortie annoncé du nouveau Macbook",
+    "excerpt": "Apple frappe fort ! Le géant américain a développé son tout nouveau modèle de macbook"
+  }
+]
+
+}

@@ -15,6 +15,20 @@ import { ReglagesPage } from '../pages/reglages/reglages';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+// ajout de firebase et af2
+
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
+
+export const firebaseConfig = {
+  apiKey: "AIzaSyAve9Ow02ACV8-IM8sovFxCdw9YUNbC9UM",
+  authDomain: "esdmag-ca2ca.firebaseapp.com",
+  databaseURL: "https://esdmag-ca2ca.firebaseio.com",
+  projectId: "esdmag-ca2ca",
+  storageBucket: "esdmag-ca2ca.appspot.com",
+  messagingSenderId: "508650479974"
+};
+
 @NgModule({
   declarations: [
     MyApp,
@@ -29,7 +43,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    AngularFireModule.initializeApp(firebaseConfig),
+    AngularFireDatabaseModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
